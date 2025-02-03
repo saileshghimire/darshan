@@ -37,23 +37,21 @@ Accepts a base64-encoded image and returns the detected Nepali alphabet and its 
 
 API Endpoints "/perdict"
 ```
-json
 {
     "image": "base64_encoded_image_string"
 }
 ```
 ### Response
 ```
-json
 {
     "success": true,
     "results": "Detected_Alphabet",
     "Probability": 0.95
 }
 ```
-###Error
+
+### Error
 ```
-json
 {
     "success": false,
     "error": "Error message"
